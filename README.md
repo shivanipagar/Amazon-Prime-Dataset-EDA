@@ -36,8 +36,6 @@ The notebook walks through the following steps:
 
 The dataset is assumed to be a CSV file containing information about content available on Amazon Prime Video. It includes metadata like title, type (movie/TV show), release year, genre, country, language, IMDB ratings, etc.
 
-> **Note**: The actual dataset file is not included in this repository. Make sure to place it in the notebook directory before running the notebook.
-
 ## 🛠️ Technologies Used
 
 - Python 🐍
@@ -49,10 +47,12 @@ The dataset is assumed to be a CSV file containing information about content ava
 
 ## 📈 Insights
 
-- Amazon Prime's content is skewed towards movies.
-- Most content is recent, released post-2010.
-- IMDB ratings tend to follow a normal-like distribution.
-- English-language content dominates the platform.
+- The majority of Amazon Prime content consists of movies rather than TV shows.
+- Most titles were released after 2010, indicating a focus on recent content.
+- English is the predominant language of the content.
+- The most popular genres include Drama and Comedy.
+- IMDB scores are generally high, with many titles rated above 6.
+- A significant portion of content is targeted at a general or family-friendly audience.
 
 ## ▶️ Getting Started
 
